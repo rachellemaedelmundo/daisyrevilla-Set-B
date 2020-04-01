@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Set B Files/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Set B Files/css/style.css">
+    <title>Document</title>
+</head>
+<body class="bg">
+    <section class="container-fluid pt-5">
+        <div class="row justify-content-center container-fluid ">
+            <div class="homeCard justify-content-center pt=5 " >
+                <div class="container">
+                    <div>
+                        <h2 class="student">  Student Grade Evaluator</h2>
+                    </div>
+                    <div>
+                        <h5 class="name">Student Name: <input type="text-center"></h5>
+                    </div>
+                        <h6 class="sub">Student Subject</h6>
+                    <div class="table justify-content-center container-fluid">
+                        <div class="row">
+                            <div class="col-md-3 container-fluid ">
+                                <p class="text-center">Title</p>
+                                <div class="math pb-3">Math</div>
+                                <div class="science pb-3 ">Science</div>
+                                <div class="english pb-3">English</div>
+                                <div class="filipino pb-3">Filipino</div>
+                                <div class="pE pb-3">P.E.</div>
+                            </div>
+                            <div class="col-sm-6 container-fluid">
+                                <p class="text-center">Grade</p>
+                                <div class="pb-2"><input type="number" id="mathGrade"></div>
+                                <div class="pb-2"><input type="number" id="scienceGrade"></div>
+                                <div class="pb-2"><input type="number" id="englishGrade"></div>
+                                <div class="pb-2"><input type="number" id="filipinoGrade"></div>
+                                <div class="pb-2"><input type="number" id="peGrade"></div>
+                            </div>
+                            <div class="col-md-3 container-fluid">
+                                <p class="text-center">Remarks</p>
+                                <div class="text-center"><p id="mathRemarks">Evaluation</p></div>
+                                <div class="text-center"><p id="scienceRemarks">Evaluation</p> </div>
+                                <div class="text-center"><p id="englishRemarks">Evaluation</p></div>
+                                <div class="text-center"><p id="filipinoRemarks">Evaluation</p></div>
+                                <div class="text-center"><p id="peRemarks">Evaluation</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="studentRank container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4 id="start">Student Rank: </h4>
+                            </div>
+                            <div class="col-md-5">
+                                <h4 id="Rank">Rank Here</h4>
+                            </div>
+                        </div>
+                    </div>
+                        <button onclick="evalResult()" class="her">Evaluate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./Set B Files/js/main.js"></script>
+</body>
+
+</html>

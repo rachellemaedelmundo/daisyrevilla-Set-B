@@ -1,0 +1,90 @@
+
+main{
+    background-image: url(../FB_IMG_1584754676890.jpg);
+    background-size: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+}
+.landingCard{
+    position: absolute;
+    height: 100vh;
+    width: 40%;
+    color: black;
+
+}
+.homeCard{
+    position: absolute;
+    background: salmon;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+
+
+
+
+}
+.btnEnter{
+    border-radius: 15%;
+    height: 50px;
+    width: 100px;
+    background-color: salmon;
+    border-color: snow;
+    color: snow;
+
+}
+.bg{
+    background:url(../FB_IMG_1584754697512.jpg);
+
+}
+.btnEnter:hover{
+    color: teal;
+    background-color: thistle;
+}
+.student{
+    font-family: "Haettenschweiler";
+    font-size: 40px;
+    text-align: center;
+}
+.name{
+    font-family: "gill san";
+    font-size: medium;
+}
+.sub{
+    font-family: "gill san";
+  
+}
+#Rank{
+    font-family: "Haettenschweiler";
+    font-size: 25px;
+    text-align: center;
+
+}
+#start{
+    font-family: "Haettenschweiler";
+    font-size: 25px;
+    text-align: left;
+ 
+}
+.her{
+    border-radius: 15%;
+    height: 40px;
+    width: 70px;
+    background-color: salmon;
+    border-color: snow;
+    color: snow;
+ 
+}
+.her:hover{
+    color: teal;
+    background-color: thistle;
+
+}
+.yow{
+    font-family:"Haettenschweiler";
+    font-size: 40px;
+    text-shadow: lightsalmon;
+}
